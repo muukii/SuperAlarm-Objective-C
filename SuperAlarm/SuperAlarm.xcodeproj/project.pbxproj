@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0887D915DF814B00C4DB6B /* AlarmMiniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0887D815DF814B00C4DB6B /* AlarmMiniView.m */; };
+		4B0A9BEB15E7C9DA0068D69E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A9BEA15E7C9DA0068D69E /* Default@2x.png */; };
+		4B0A9BEE15E7CB630068D69E /* lanch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A9BED15E7CB630068D69E /* lanch@2x.png */; };
+		4B0EBBD715D1767A0079D90A /* pad.aif in Resources */ = {isa = PBXBuildFile; fileRef = 4B0EBBD915D1767A0079D90A /* pad.aif */; };
+		4B1AF0C015EA035E005812A4 /* AlarmWhatDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1AF0BF15EA035E005812A4 /* AlarmWhatDayViewController.m */; };
+		4B1DB77715C2E2B200AAA13D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1DB77615C2E2B200AAA13D /* UIKit.framework */; };
+		4B1DB77915C2E2B200AAA13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1DB77815C2E2B200AAA13D /* Foundation.framework */; };
+		4B1DB77B15C2E2B200AAA13D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1DB77A15C2E2B200AAA13D /* CoreGraphics.framework */; };
+		4B1DB78315C2E2B200AAA13D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DB78215C2E2B200AAA13D /* main.m */; };
+		4B1DB7C015C2E2CD00AAA13D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1DB7AF15C2E2CD00AAA13D /* MainStoryboard.storyboard */; };
+		4B1DB7C615C2E2CD00AAA13D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DB7B515C2E2CD00AAA13D /* SettingViewController.m */; };
+		4B1DB7C815C2E2CD00AAA13D /* PlayAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DB7B715C2E2CD00AAA13D /* PlayAlarm.m */; };
+		4B1DB7CA15C2E2CD00AAA13D /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DB7B915C2E2CD00AAA13D /* CustomButton.m */; };
+		4B1DB7CC15C2E2CD00AAA13D /* AddAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DB7BB15C2E2CD00AAA13D /* AddAlarmViewController.m */; };
+		4B4FD6C015D1609900925BC9 /* bell.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FD6BF15D1609900925BC9 /* bell.m4a */; };
+		4B5D8CB715C85B0000E75518 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D8CB615C85B0000E75518 /* Circle.m */; };
+		4B60823D15D1881F00DE28E0 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DB7B115C2E2CD00AAA13D /* ClockViewController.m */; };
+		4B66EA7115C3B12D00239285 /* NoticeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B66EA5D15C3B12D00239285 /* NoticeView.bundle */; };
+		4B66EA7215C3B12D00239285 /* UILabel+WBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA5F15C3B12D00239285 /* UILabel+WBExtensions.m */; };
+		4B66EA7315C3B12D00239285 /* WBBaseNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6115C3B12D00239285 /* WBBaseNoticeView.m */; };
+		4B66EA7415C3B12D00239285 /* WBBlueGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6315C3B12D00239285 /* WBBlueGradientView.m */; };
+		4B66EA7515C3B12D00239285 /* WBErrorNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6515C3B12D00239285 /* WBErrorNoticeView.m */; };
+		4B66EA7615C3B12D00239285 /* WBGrayGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6715C3B12D00239285 /* WBGrayGradientView.m */; };
+		4B66EA7715C3B12D00239285 /* WBNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6915C3B12D00239285 /* WBNoticeView.m */; };
+		4B66EA7815C3B12D00239285 /* WBRedGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6C15C3B12D00239285 /* WBRedGradientView.m */; };
+		4B66EA7915C3B12D00239285 /* WBStickyNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA6E15C3B12D00239285 /* WBStickyNoticeView.m */; };
+		4B66EA7A15C3B12D00239285 /* WBSuccessNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66EA7015C3B12D00239285 /* WBSuccessNoticeView.m */; };
+		4B66EA7D15C3B25900239285 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B66EA7C15C3B25800239285 /* QuartzCore.framework */; };
+		4B6C4DCA15E53192002409E1 /* bell.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4B6C4DC915E53192002409E1 /* bell.caf */; };
+		4B6FD19C15CC28A900D6105D /* AlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD19B15CC28A900D6105D /* AlarmAppDelegate.m */; };
+		4B6FD1A015CC28CE00D6105D /* AlarmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD19F15CC28CE00D6105D /* AlarmTableViewController.m */; };
+		4B89705415DE34C900DB34D1 /* skyBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B89705315DE34C900DB34D1 /* skyBlue@2x.png */; };
+		4B89705915DE36C200DB34D1 /* cellGros@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B89705815DE36C200DB34D1 /* cellGros@2x.png */; };
+		4B89705D15DE4F2400DB34D1 /* navBarWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B89705C15DE4F2400DB34D1 /* navBarWhite@2x.png */; };
+		4B8CEE1215DEB6A600E811A9 /* alarmOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CEE1115DEB6A600E811A9 /* alarmOn@2x.png */; };
+		4B8CEE1415DEB6D400E811A9 /* alarmOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CEE1315DEB6D400E811A9 /* alarmOff@2x.png */; };
+		4B8CEE2115DEC97100E811A9 /* cal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CEE1F15DEC97000E811A9 /* cal2.png */; };
+		4B8CEE2215DEC97100E811A9 /* cal2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CEE2015DEC97100E811A9 /* cal2@2x.png */; };
+		4B8CEE2515DECAFC00E811A9 /* clockWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CEE2315DECAFB00E811A9 /* clockWhite@2x.png */; };
+		4B8CEE2615DECAFC00E811A9 /* clockWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8CEE2415DECAFB00E811A9 /* clockWhite.png */; };
+		4BA5F9B115DE5E1300DAA752 /* SuperAlarm-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5F9B015DE5E1300DAA752 /* SuperAlarm-01.png */; };
+		4BA5FA1B15DE9F9300DAA752 /* CustomUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5FA1A15DE9F9300DAA752 /* CustomUISwitch.m */; };
+		4BB44E2815DD277800AC98F7 /* alarm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB44E2515DD277800AC98F7 /* alarm@2x.png */; };
+		4BB44E2915DD277800AC98F7 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB44E2615DD277800AC98F7 /* clock@2x.png */; };
+		4BB44E2A15DD277800AC98F7 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB44E2715DD277800AC98F7 /* gear@2x.png */; };
+		4BB44E2E15DD27C700AC98F7 /* alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB44E2B15DD27C700AC98F7 /* alarm.png */; };
+		4BB44E2F15DD27C700AC98F7 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB44E2C15DD27C700AC98F7 /* clock.png */; };
+		4BB44E3015DD27C700AC98F7 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB44E2D15DD27C700AC98F7 /* gear.png */; };
+		4BB48BC315E7B91D00C8E26E /* AlarmSoundTableViewCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB48BC215E7B91D00C8E26E /* AlarmSoundTableViewCotroller.m */; };
+		4BD5DEC615E4E4B100F560F7 /* aaa.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4BD5DEC515E4E4B100F560F7 /* aaa.caf */; };
+		4BDA16BB15D18DE00084816C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDA16BA15D18DE00084816C /* AVFoundation.framework */; };
+		4BDA16C115D18E2B0084816C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDA16C015D18E2B0084816C /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B0887D715DF814B00C4DB6B /* AlarmMiniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmMiniView.h; sourceTree = "<group>"; };
+		4B0887D815DF814B00C4DB6B /* AlarmMiniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmMiniView.m; sourceTree = "<group>"; };
+		4B0A9BEA15E7C9DA0068D69E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4B0A9BED15E7CB630068D69E /* lanch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanch@2x.png"; sourceTree = "<group>"; };
+		4B0EBBD815D1767A0079D90A /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/pad.aif; sourceTree = "<group>"; };
+		4B1AF0BE15EA035E005812A4 /* AlarmWhatDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmWhatDayViewController.h; sourceTree = "<group>"; };
+		4B1AF0BF15EA035E005812A4 /* AlarmWhatDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmWhatDayViewController.m; sourceTree = "<group>"; };
+		4B1DB77215C2E2B200AAA13D /* SuperAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1DB77615C2E2B200AAA13D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B1DB77815C2E2B200AAA13D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B1DB77A15C2E2B200AAA13D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B1DB77E15C2E2B200AAA13D /* SuperAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperAlarm-Info.plist"; sourceTree = "<group>"; };
+		4B1DB78215C2E2B200AAA13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B1DB78415C2E2B200AAA13D /* SuperAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		4B1DB7AF15C2E2CD00AAA13D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4B1DB7B015C2E2CD00AAA13D /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		4B1DB7B115C2E2CD00AAA13D /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		4B1DB7B415C2E2CD00AAA13D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		4B1DB7B515C2E2CD00AAA13D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		4B1DB7B615C2E2CD00AAA13D /* PlayAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAlarm.h; sourceTree = "<group>"; };
+		4B1DB7B715C2E2CD00AAA13D /* PlayAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAlarm.m; sourceTree = "<group>"; };
+		4B1DB7B815C2E2CD00AAA13D /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		4B1DB7B915C2E2CD00AAA13D /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		4B1DB7BA15C2E2CD00AAA13D /* AddAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlarmViewController.h; sourceTree = "<group>"; };
+		4B1DB7BB15C2E2CD00AAA13D /* AddAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlarmViewController.m; sourceTree = "<group>"; };
+		4B4FD6BF15D1609900925BC9 /* bell.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.m4a; sourceTree = "<group>"; };
+		4B5D8CB515C85B0000E75518 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		4B5D8CB615C85B0000E75518 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		4B66EA5D15C3B12D00239285 /* NoticeView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NoticeView.bundle; sourceTree = "<group>"; };
+		4B66EA5E15C3B12D00239285 /* UILabel+WBExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WBExtensions.h"; sourceTree = "<group>"; };
+		4B66EA5F15C3B12D00239285 /* UILabel+WBExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WBExtensions.m"; sourceTree = "<group>"; };
+		4B66EA6015C3B12D00239285 /* WBBaseNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseNoticeView.h; sourceTree = "<group>"; };
+		4B66EA6115C3B12D00239285 /* WBBaseNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseNoticeView.m; sourceTree = "<group>"; };
+		4B66EA6215C3B12D00239285 /* WBBlueGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBlueGradientView.h; sourceTree = "<group>"; };
+		4B66EA6315C3B12D00239285 /* WBBlueGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBlueGradientView.m; sourceTree = "<group>"; };
+		4B66EA6415C3B12D00239285 /* WBErrorNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBErrorNoticeView.h; sourceTree = "<group>"; };
+		4B66EA6515C3B12D00239285 /* WBErrorNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBErrorNoticeView.m; sourceTree = "<group>"; };
+		4B66EA6615C3B12D00239285 /* WBGrayGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBGrayGradientView.h; sourceTree = "<group>"; };
+		4B66EA6715C3B12D00239285 /* WBGrayGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBGrayGradientView.m; sourceTree = "<group>"; };
+		4B66EA6815C3B12D00239285 /* WBNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNoticeView.h; sourceTree = "<group>"; };
+		4B66EA6915C3B12D00239285 /* WBNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNoticeView.m; sourceTree = "<group>"; };
+		4B66EA6A15C3B12D00239285 /* WBNoticeView_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNoticeView_Private.h; sourceTree = "<group>"; };
+		4B66EA6B15C3B12D00239285 /* WBRedGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedGradientView.h; sourceTree = "<group>"; };
+		4B66EA6C15C3B12D00239285 /* WBRedGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedGradientView.m; sourceTree = "<group>"; };
+		4B66EA6D15C3B12D00239285 /* WBStickyNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStickyNoticeView.h; sourceTree = "<group>"; };
+		4B66EA6E15C3B12D00239285 /* WBStickyNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStickyNoticeView.m; sourceTree = "<group>"; };
+		4B66EA6F15C3B12D00239285 /* WBSuccessNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSuccessNoticeView.h; sourceTree = "<group>"; };
+		4B66EA7015C3B12D00239285 /* WBSuccessNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSuccessNoticeView.m; sourceTree = "<group>"; };
+		4B66EA7C15C3B25800239285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4B6C4DC915E53192002409E1 /* bell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.caf; sourceTree = "<group>"; };
+		4B6FD19A15CC28A900D6105D /* AlarmAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmAppDelegate.h; sourceTree = "<group>"; };
+		4B6FD19B15CC28A900D6105D /* AlarmAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmAppDelegate.m; sourceTree = "<group>"; };
+		4B6FD19E15CC28CD00D6105D /* AlarmTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmTableViewController.h; sourceTree = "<group>"; };
+		4B6FD19F15CC28CE00D6105D /* AlarmTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmTableViewController.m; sourceTree = "<group>"; };
+		4B89705315DE34C900DB34D1 /* skyBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyBlue@2x.png"; sourceTree = "<group>"; };
+		4B89705815DE36C200DB34D1 /* cellGros@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellGros@2x.png"; sourceTree = "<group>"; };
+		4B89705C15DE4F2400DB34D1 /* navBarWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarWhite@2x.png"; sourceTree = "<group>"; };
+		4B8CEE1115DEB6A600E811A9 /* alarmOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmOn@2x.png"; sourceTree = "<group>"; };
+		4B8CEE1315DEB6D400E811A9 /* alarmOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmOff@2x.png"; sourceTree = "<group>"; };
+		4B8CEE1F15DEC97000E811A9 /* cal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cal2.png; sourceTree = "<group>"; };
+		4B8CEE2015DEC97100E811A9 /* cal2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cal2@2x.png"; sourceTree = "<group>"; };
+		4B8CEE2315DECAFB00E811A9 /* clockWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockWhite@2x.png"; sourceTree = "<group>"; };
+		4B8CEE2415DECAFB00E811A9 /* clockWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockWhite.png; sourceTree = "<group>"; };
+		4BA5F9B015DE5E1300DAA752 /* SuperAlarm-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuperAlarm-01.png"; sourceTree = "<group>"; };
+		4BA5FA1915DE9F9300DAA752 /* CustomUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUISwitch.h; sourceTree = "<group>"; };
+		4BA5FA1A15DE9F9300DAA752 /* CustomUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUISwitch.m; sourceTree = "<group>"; };
+		4BB44E2515DD277800AC98F7 /* alarm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm@2x.png"; sourceTree = "<group>"; };
+		4BB44E2615DD277800AC98F7 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		4BB44E2715DD277800AC98F7 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		4BB44E2B15DD27C700AC98F7 /* alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarm.png; sourceTree = "<group>"; };
+		4BB44E2C15DD27C700AC98F7 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		4BB44E2D15DD27C700AC98F7 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		4BB48BC115E7B91D00C8E26E /* AlarmSoundTableViewCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSoundTableViewCotroller.h; sourceTree = "<group>"; };
+		4BB48BC215E7B91D00C8E26E /* AlarmSoundTableViewCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSoundTableViewCotroller.m; sourceTree = "<group>"; };
+		4BD5DEC515E4E4B100F560F7 /* aaa.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaa.caf; sourceTree = "<group>"; };
+		4BDA16BA15D18DE00084816C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4BDA16C015D18E2B0084816C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1DB76F15C2E2B200AAA13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDA16C115D18E2B0084816C /* AudioToolbox.framework in Frameworks */,
+				4BDA16BB15D18DE00084816C /* AVFoundation.framework in Frameworks */,
+				4B66EA7D15C3B25900239285 /* QuartzCore.framework in Frameworks */,
+				4B1DB77715C2E2B200AAA13D /* UIKit.framework in Frameworks */,
+				4B1DB77915C2E2B200AAA13D /* Foundation.framework in Frameworks */,
+				4B1DB77B15C2E2B200AAA13D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1AF0C215EA0372005812A4 /* AddAlarmViewContollerSubClass */ = {
+			isa = PBXGroup;
+			children = (
+				4B1AF0BE15EA035E005812A4 /* AlarmWhatDayViewController.h */,
+				4B1AF0BF15EA035E005812A4 /* AlarmWhatDayViewController.m */,
+				4BB48BC115E7B91D00C8E26E /* AlarmSoundTableViewCotroller.h */,
+				4BB48BC215E7B91D00C8E26E /* AlarmSoundTableViewCotroller.m */,
+			);
+			name = AddAlarmViewContollerSubClass;
+			sourceTree = "<group>";
+		};
+		4B1DB76715C2E2B200AAA13D = {
+			isa = PBXGroup;
+			children = (
+				4B0A9BEA15E7C9DA0068D69E /* Default@2x.png */,
+				4BA5F9B015DE5E1300DAA752 /* SuperAlarm-01.png */,
+				4B7A330815D15A84007989A8 /* Resouces */,
+				4B77A80715C973D2006B9AAB /* icons */,
+				4B1DB77C15C2E2B200AAA13D /* SuperAlarm */,
+				4B1DB77515C2E2B200AAA13D /* Frameworks */,
+				4B1DB77315C2E2B200AAA13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B1DB77315C2E2B200AAA13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B1DB77215C2E2B200AAA13D /* SuperAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B1DB77515C2E2B200AAA13D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA16C015D18E2B0084816C /* AudioToolbox.framework */,
+				4BDA16BA15D18DE00084816C /* AVFoundation.framework */,
+				4B66EA7C15C3B25800239285 /* QuartzCore.framework */,
+				4B1DB77615C2E2B200AAA13D /* UIKit.framework */,
+				4B1DB77815C2E2B200AAA13D /* Foundation.framework */,
+				4B1DB77A15C2E2B200AAA13D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B1DB77C15C2E2B200AAA13D /* SuperAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D8CB515C85B0000E75518 /* Circle.h */,
+				4B5D8CB615C85B0000E75518 /* Circle.m */,
+				4B0887D715DF814B00C4DB6B /* AlarmMiniView.h */,
+				4B0887D815DF814B00C4DB6B /* AlarmMiniView.m */,
+				4B66EA5C15C3B12D00239285 /* WBNoticeView */,
+				4B1DB7AF15C2E2CD00AAA13D /* MainStoryboard.storyboard */,
+				4B6FD19A15CC28A900D6105D /* AlarmAppDelegate.h */,
+				4B6FD19B15CC28A900D6105D /* AlarmAppDelegate.m */,
+				4B1DB7B015C2E2CD00AAA13D /* ClockViewController.h */,
+				4B1DB7B115C2E2CD00AAA13D /* ClockViewController.m */,
+				4B6FD19E15CC28CD00D6105D /* AlarmTableViewController.h */,
+				4B6FD19F15CC28CE00D6105D /* AlarmTableViewController.m */,
+				4BA5FA1915DE9F9300DAA752 /* CustomUISwitch.h */,
+				4BA5FA1A15DE9F9300DAA752 /* CustomUISwitch.m */,
+				4B1DB7B415C2E2CD00AAA13D /* SettingViewController.h */,
+				4B1DB7B515C2E2CD00AAA13D /* SettingViewController.m */,
+				4B1DB7B615C2E2CD00AAA13D /* PlayAlarm.h */,
+				4B1DB7B715C2E2CD00AAA13D /* PlayAlarm.m */,
+				4B1DB7B815C2E2CD00AAA13D /* CustomButton.h */,
+				4B1DB7B915C2E2CD00AAA13D /* CustomButton.m */,
+				4B1DB7BA15C2E2CD00AAA13D /* AddAlarmViewController.h */,
+				4B1DB7BB15C2E2CD00AAA13D /* AddAlarmViewController.m */,
+				4B1AF0C215EA0372005812A4 /* AddAlarmViewContollerSubClass */,
+				4B1DB77D15C2E2B200AAA13D /* Supporting Files */,
+			);
+			path = SuperAlarm;
+			sourceTree = "<group>";
+		};
+		4B1DB77D15C2E2B200AAA13D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B1DB77E15C2E2B200AAA13D /* SuperAlarm-Info.plist */,
+				4B1DB78215C2E2B200AAA13D /* main.m */,
+				4B1DB78415C2E2B200AAA13D /* SuperAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B66EA5C15C3B12D00239285 /* WBNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				4B66EA5D15C3B12D00239285 /* NoticeView.bundle */,
+				4B66EA5E15C3B12D00239285 /* UILabel+WBExtensions.h */,
+				4B66EA5F15C3B12D00239285 /* UILabel+WBExtensions.m */,
+				4B66EA6015C3B12D00239285 /* WBBaseNoticeView.h */,
+				4B66EA6115C3B12D00239285 /* WBBaseNoticeView.m */,
+				4B66EA6215C3B12D00239285 /* WBBlueGradientView.h */,
+				4B66EA6315C3B12D00239285 /* WBBlueGradientView.m */,
+				4B66EA6415C3B12D00239285 /* WBErrorNoticeView.h */,
+				4B66EA6515C3B12D00239285 /* WBErrorNoticeView.m */,
+				4B66EA6615C3B12D00239285 /* WBGrayGradientView.h */,
+				4B66EA6715C3B12D00239285 /* WBGrayGradientView.m */,
+				4B66EA6815C3B12D00239285 /* WBNoticeView.h */,
+				4B66EA6915C3B12D00239285 /* WBNoticeView.m */,
+				4B66EA6A15C3B12D00239285 /* WBNoticeView_Private.h */,
+				4B66EA6B15C3B12D00239285 /* WBRedGradientView.h */,
+				4B66EA6C15C3B12D00239285 /* WBRedGradientView.m */,
+				4B66EA6D15C3B12D00239285 /* WBStickyNoticeView.h */,
+				4B66EA6E15C3B12D00239285 /* WBStickyNoticeView.m */,
+				4B66EA6F15C3B12D00239285 /* WBSuccessNoticeView.h */,
+				4B66EA7015C3B12D00239285 /* WBSuccessNoticeView.m */,
+			);
+			path = WBNoticeView;
+			sourceTree = "<group>";
+		};
+		4B77A80715C973D2006B9AAB /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				4BB44E2515DD277800AC98F7 /* alarm@2x.png */,
+				4B0A9BED15E7CB630068D69E /* lanch@2x.png */,
+				4BB44E2615DD277800AC98F7 /* clock@2x.png */,
+				4BB44E2715DD277800AC98F7 /* gear@2x.png */,
+				4BB44E2B15DD27C700AC98F7 /* alarm.png */,
+				4BB44E2C15DD27C700AC98F7 /* clock.png */,
+				4BB44E2D15DD27C700AC98F7 /* gear.png */,
+				4B89705315DE34C900DB34D1 /* skyBlue@2x.png */,
+				4B89705815DE36C200DB34D1 /* cellGros@2x.png */,
+				4B8CEE1115DEB6A600E811A9 /* alarmOn@2x.png */,
+				4B8CEE1315DEB6D400E811A9 /* alarmOff@2x.png */,
+				4B8CEE2315DECAFB00E811A9 /* clockWhite@2x.png */,
+				4B8CEE2415DECAFB00E811A9 /* clockWhite.png */,
+				4B8CEE1F15DEC97000E811A9 /* cal2.png */,
+				4B8CEE2015DEC97100E811A9 /* cal2@2x.png */,
+				4B89705C15DE4F2400DB34D1 /* navBarWhite@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		4B7A330815D15A84007989A8 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FD6BF15D1609900925BC9 /* bell.m4a */,
+				4B0EBBD915D1767A0079D90A /* pad.aif */,
+				4BD5DEC515E4E4B100F560F7 /* aaa.caf */,
+				4B6C4DC915E53192002409E1 /* bell.caf */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B1DB77115C2E2B200AAA13D /* SuperAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1DB7A515C2E2B200AAA13D /* Build configuration list for PBXNativeTarget "SuperAlarm" */;
+			buildPhases = (
+				4B1DB76E15C2E2B200AAA13D /* Sources */,
+				4B1DB76F15C2E2B200AAA13D /* Frameworks */,
+				4B1DB77015C2E2B200AAA13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperAlarm;
+			productName = SuperAlarm;
+			productReference = 4B1DB77215C2E2B200AAA13D /* SuperAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B1DB76915C2E2B200AAA13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Alarm;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "むーきー";
+			};
+			buildConfigurationList = 4B1DB76C15C2E2B200AAA13D /* Build configuration list for PBXProject "SuperAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B1DB76715C2E2B200AAA13D;
+			productRefGroup = 4B1DB77315C2E2B200AAA13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B1DB77115C2E2B200AAA13D /* SuperAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B1DB77015C2E2B200AAA13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1DB7C015C2E2CD00AAA13D /* MainStoryboard.storyboard in Resources */,
+				4B66EA7115C3B12D00239285 /* NoticeView.bundle in Resources */,
+				4B4FD6C015D1609900925BC9 /* bell.m4a in Resources */,
+				4B0EBBD715D1767A0079D90A /* pad.aif in Resources */,
+				4BB44E2815DD277800AC98F7 /* alarm@2x.png in Resources */,
+				4BB44E2915DD277800AC98F7 /* clock@2x.png in Resources */,
+				4BB44E2A15DD277800AC98F7 /* gear@2x.png in Resources */,
+				4BB44E2E15DD27C700AC98F7 /* alarm.png in Resources */,
+				4BB44E2F15DD27C700AC98F7 /* clock.png in Resources */,
+				4BB44E3015DD27C700AC98F7 /* gear.png in Resources */,
+				4B89705415DE34C900DB34D1 /* skyBlue@2x.png in Resources */,
+				4B89705915DE36C200DB34D1 /* cellGros@2x.png in Resources */,
+				4B89705D15DE4F2400DB34D1 /* navBarWhite@2x.png in Resources */,
+				4BA5F9B115DE5E1300DAA752 /* SuperAlarm-01.png in Resources */,
+				4B8CEE1215DEB6A600E811A9 /* alarmOn@2x.png in Resources */,
+				4B8CEE1415DEB6D400E811A9 /* alarmOff@2x.png in Resources */,
+				4B8CEE2115DEC97100E811A9 /* cal2.png in Resources */,
+				4B8CEE2215DEC97100E811A9 /* cal2@2x.png in Resources */,
+				4B8CEE2515DECAFC00E811A9 /* clockWhite@2x.png in Resources */,
+				4B8CEE2615DECAFC00E811A9 /* clockWhite.png in Resources */,
+				4BD5DEC615E4E4B100F560F7 /* aaa.caf in Resources */,
+				4B6C4DCA15E53192002409E1 /* bell.caf in Resources */,
+				4B0A9BEB15E7C9DA0068D69E /* Default@2x.png in Resources */,
+				4B0A9BEE15E7CB630068D69E /* lanch@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1DB76E15C2E2B200AAA13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1DB78315C2E2B200AAA13D /* main.m in Sources */,
+				4B1DB7C615C2E2CD00AAA13D /* SettingViewController.m in Sources */,
+				4B1DB7C815C2E2CD00AAA13D /* PlayAlarm.m in Sources */,
+				4B1DB7CA15C2E2CD00AAA13D /* CustomButton.m in Sources */,
+				4B1DB7CC15C2E2CD00AAA13D /* AddAlarmViewController.m in Sources */,
+				4B66EA7215C3B12D00239285 /* UILabel+WBExtensions.m in Sources */,
+				4B66EA7315C3B12D00239285 /* WBBaseNoticeView.m in Sources */,
+				4B66EA7415C3B12D00239285 /* WBBlueGradientView.m in Sources */,
+				4B66EA7515C3B12D00239285 /* WBErrorNoticeView.m in Sources */,
+				4B66EA7615C3B12D00239285 /* WBGrayGradientView.m in Sources */,
+				4B66EA7715C3B12D00239285 /* WBNoticeView.m in Sources */,
+				4B66EA7815C3B12D00239285 /* WBRedGradientView.m in Sources */,
+				4B66EA7915C3B12D00239285 /* WBStickyNoticeView.m in Sources */,
+				4B66EA7A15C3B12D00239285 /* WBSuccessNoticeView.m in Sources */,
+				4B5D8CB715C85B0000E75518 /* Circle.m in Sources */,
+				4B6FD19C15CC28A900D6105D /* AlarmAppDelegate.m in Sources */,
+				4B6FD1A015CC28CE00D6105D /* AlarmTableViewController.m in Sources */,
+				4B60823D15D1881F00DE28E0 /* ClockViewController.m in Sources */,
+				4BA5FA1B15DE9F9300DAA752 /* CustomUISwitch.m in Sources */,
+				4B0887D915DF814B00C4DB6B /* AlarmMiniView.m in Sources */,
+				4BB48BC315E7B91D00C8E26E /* AlarmSoundTableViewCotroller.m in Sources */,
+				4B1AF0C015EA035E005812A4 /* AlarmWhatDayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B0EBBD915D1767A0079D90A /* pad.aif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B0EBBD815D1767A0079D90A /* en */,
+			);
+			name = pad.aif;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B1DB7A315C2E2B200AAA13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B1DB7A415C2E2B200AAA13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B1DB7A615C2E2B200AAA13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperAlarm/SuperAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SuperAlarm/SuperAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B1DB7A715C2E2B200AAA13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperAlarm/SuperAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SuperAlarm/SuperAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B1DB76C15C2E2B200AAA13D /* Build configuration list for PBXProject "SuperAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1DB7A315C2E2B200AAA13D /* Debug */,
+				4B1DB7A415C2E2B200AAA13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1DB7A515C2E2B200AAA13D /* Build configuration list for PBXNativeTarget "SuperAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1DB7A615C2E2B200AAA13D /* Debug */,
+				4B1DB7A715C2E2B200AAA13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B1DB76915C2E2B200AAA13D /* Project object */;
+}
